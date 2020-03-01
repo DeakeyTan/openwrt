@@ -12,9 +12,9 @@ name: OpenWrt-CI
 on:
   schedule:
     - cron: 0 20 1/6 * *
-  # push:
-  #   branches: 
-  #     - master
+  push:
+    branches: 
+      - master
 
 jobs:
 
@@ -63,8 +63,6 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
-          git clone https://github.com/vernesong/OpenClash.git
-          git clone https://github.com/Lienol/openwrt-package.git
 
       - name: Update feeds
         run: |
@@ -176,8 +174,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           # CONFIG_PACKAGE_ddns-scripts_aliyun=y
-          CONFIG_PACKAGE_OpenClash=y
-          CONFIG_PACKAGE_openwrt-package=y
           EOF
 
           # LuCI主题:
