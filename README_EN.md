@@ -32,9 +32,6 @@ Let's start!
 
 6. Run `make -j1 V=s` (integer following -j is the thread count, single-thread is recommended for the first build) to start building your firmware.
 
-This source code is promised to be compiled successfully.
-
-You can use this source code freely, but please link this GitHub repository when redistributing. Thank you for your cooperation!
 =
 
 Rebuild:
