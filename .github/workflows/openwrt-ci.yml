@@ -70,7 +70,7 @@ jobs:
           # 取消编译VMware镜像:
           cat >> .config <<EOF
           CONFIG_VMDK_IMAGES=n
-          EOF 
+          EOF
           
           # 编译UEFI固件:
           cat >> .config <<EOF
