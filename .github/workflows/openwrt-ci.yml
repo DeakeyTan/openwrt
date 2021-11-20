@@ -129,6 +129,7 @@ jobs:
           # CONFIG_PACKAGE_ddns-scripts_aliyun=y
           CONFIG_PACKAGE_luci-app-openclash=y
           # CONFIG_PACKAGE_luci-app-passwall=y
+          CONFIG_PACKAGE_qemu-ga=y
           EOF
 
           # LuCI主题:
