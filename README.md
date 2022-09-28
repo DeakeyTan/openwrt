@@ -1,6 +1,6 @@
 # 欢迎来到 Lean 的 Openwrt 源码仓库
 
-如何编译自己需要的 OpenWrt 固件 [English](./README_EN.md)
+如何编译自己需要的 OpenWrt 固件 [How to build your Openwrt firmware](./README_EN.md)
 
 ## 官方讨论群
 如有技术问题需要讨论或者交流，欢迎加入以下群：
@@ -22,7 +22,7 @@
    ```bash
    sudo apt update -y
    sudo apt full-upgrade -y
-   sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+   sudo apt install -y ack antlr3 aria2 asciidoc autoconf automake autopoint binutils bison build-essential \
    bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
    git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev libgmp3-dev libltdl-dev \
    libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-dev libtool lrzsz \
@@ -48,7 +48,7 @@
    make V=s -j1
    ```
 
-本套代码保证肯定可以编译成功。里面包括了 R21 所有源代码，包括 IPK 的。
+本套代码保证肯定可以编译成功。里面包括了 R22 所有源代码，包括 IPK 的。
 
 你可以自由使用，但源码编译二次发布请注明我的 GitHub 仓库链接。谢谢合作！
 
@@ -144,6 +144,4 @@ iKOOLCORE 硬酷R1 多网口小主机 - N5105/N6005 : Cube box, rest fun. 方寸
 
 如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
 
-&emsp;&emsp;**支付宝**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**微信**  
-
-![alipay](doc/alipay_donate.jpg)   ![wechat](doc/wechat_donate.jpg)
+ ![star](doc/star.png) 
