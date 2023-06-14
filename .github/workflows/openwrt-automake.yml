@@ -112,7 +112,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-aria2=y
           # CONFIG_PACKAGE_luci-app-baidupcs-web=y
           # CONFIG_PACKAGE_luci-app-docker=y
-          # CONFIG_PACKAGE_luci-app-frpc=y
+          CONFIG_PACKAGE_luci-app-frpc=y
           # CONFIG_PACKAGE_luci-app-hd-idle=y
           # CONFIG_PACKAGE_luci-app-kodexplorer=y
           # CONFIG_PACKAGE_luci-app-minidlna=y
@@ -134,6 +134,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-openclash=y
           # CONFIG_PACKAGE_luci-app-passwall=y
           CONFIG_PACKAGE_luci-app-mwan3=y
+          CONFIG_PACKAGE_luci-app-unblockmusic=n
           EOF
 
           # LuCI主题:
