@@ -8,8 +8,8 @@
 name: OpenWrt-AutoMake
 
 on:
-  schedule:
-    - cron: 0 22 * * 5
+#  schedule:
+#    - cron: 0 22 * * 5
   release:
     types: [released]
 
